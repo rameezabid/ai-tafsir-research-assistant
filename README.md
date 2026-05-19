@@ -163,13 +163,13 @@ Turath search results often return a target page. To capture context before and 
 Current settings:
 
 ```python
-TURATH_CONTEXT_TOP_N = 3
+TURATH_CONTEXT_TOP_N = 5
 TURATH_CONTEXT_RADIUS = 3
 ```
 
 Meaning:
 
-- Expand the top 3 Turath results.
+- Expand the top 5 Turath results.
 - For each expanded result, fetch 3 pages before and 3 pages after the target page.
 - Total per expanded result: up to 7 pages.
 
@@ -187,12 +187,6 @@ TURATH_CONTEXT_RADIUS = 5
 
 This would fetch 5 pages before, the target page, and 5 pages after.
 
-To expand every Turath result, set:
-
-```python
-TURATH_CONTEXT_TOP_N = None
-```
-
 Be careful with very high settings. More context can improve answers, but it also makes the bot slower and can send too much text to the OpenAI model.
 
 Practical settings:
@@ -205,11 +199,6 @@ TURATH_CONTEXT_RADIUS = 3
 # Deeper research
 TURATH_CONTEXT_TOP_N = 8
 TURATH_CONTEXT_RADIUS = 5
-
-# All results, moderate context
-TURATH_CONTEXT_TOP_N = None
-TURATH_CONTEXT_RADIUS = 3
-```
 
 ## Installation
 
@@ -269,7 +258,7 @@ ALLOWED_TELEGRAM_USER_ID=123456789
 ### 5. Run the bot
 
 ```bash
-python bot.py
+python tafsir.py
 ```
 
 You should see:
@@ -545,7 +534,7 @@ Check:
 
 ```text
 tafsir-vocab-telegram-bot/
-├── bot.py
+├── tafsir.py
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
