@@ -96,8 +96,8 @@ PREFERRED_TAFSIR_BOOK_IDS = [
     9776,   # Ibn Ashur
     18686,  # Tha'labi
     8346,   # Al-Mawardi
-    13231,  # Al-Wahidi
-    21821,  # Al-Wahidi
+    13231,  # Al-Wahidi's Al-Baseet
+    21821,  # Al-Wahidi's Al-Wasit
     41,     # Al-Baghawi
     1394,   # Al-Nasafi
     23627,  # Al-Zamakhshari
