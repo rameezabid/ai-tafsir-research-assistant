@@ -8,6 +8,8 @@ The basic workflow is: ask question -> searches approved sources only -> sends r
 
 There should be no hallucinations since it's basing responses directly on the provided data sources in realtime and not guessing based on some vague trained data that we know nothing about.
 
+The script does need to be continuously running in order to use it, so if you turn off the script/computer, it will not work. In order to keep it running always, you can either buy a mini computer that is all the time or rent it through a cloud service like Railway.com.
+
 ## Features
 
 - `/vocab` — searches Arabic vocabulary dictionaries on tafsir.app first, then falls back to Turath lugha categories.
@@ -216,6 +218,19 @@ cd tafsir-vocab-telegram-bot
 ```
 
 ### 2. Create a virtual environment
+
+## Option 1: Simple install
+
+If you do not want to use a virtual environment, install the packages directly:
+
+```bash
+pip install -r requirements.txt
+python bot.py
+```
+
+## Option 2: Virtual environment install
+
+To use it in a virtual environment, install the packages as:
 
 Windows PowerShell:
 
