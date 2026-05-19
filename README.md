@@ -8,7 +8,7 @@ The basic workflow is: ask question -> searches approved sources only -> sends r
 
 There should be no hallucinations since it's basing responses directly on the provided data sources in realtime and not guessing based on some vague trained data that we know nothing about.
 
-The script does need to be continuously running in order to use it, so if you turn off the script/computer, it will not work. In order to keep it running always, you can either buy a mini computer that is all the time or rent it through a cloud service like Railway.com.
+The script does need to be continuously running in order to use it, so if you turn off the script/computer, it will not work. In order to keep it running always, you can either buy a mini computer that is on all the time or rent space through a cloud service like Railway.com.
 
 ## Features
 
