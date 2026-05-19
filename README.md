@@ -2,6 +2,12 @@
 
 A Telegram bot for Qur'anic tafsir and Arabic vocabulary research. The bot uses approved source layers only and answers from retrieved excerpts rather than open-ended web search.
 
+It's just an assistant so it doesn't have memory or context to previous questions, so you can't have normal conversations like you would in chatGPT. It's designed only as a research assistant. So each message behaves like a new question.
+
+The basic workflow is: ask question -> searches approved sources only -> sends results to AI for analysis -> sends analysis back + links to which sources it used.
+
+There should be no hallucinations since it's basing responses directly on the provided data sources in realtime and not guessing based on some vague trained data that we know nothing about.
+
 ## Features
 
 - `/vocab` — searches Arabic vocabulary dictionaries on tafsir.app first, then falls back to Turath lugha categories.
@@ -544,4 +550,4 @@ tafsir-vocab-telegram-bot/
 
 ## Disclaimer
 
-This bot is a research assistant. It retrieves excerpts from configured sources and asks the model to answer only from those excerpts. It should not be treated as an independent fatwa authority.
+This bot is a research assistant. It retrieves excerpts from configured sources and asks the model to answer only from those excerpts. It should not be treated as an independent authority.
