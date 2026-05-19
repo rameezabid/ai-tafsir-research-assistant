@@ -219,7 +219,7 @@ cd tafsir-vocab-telegram-bot
 
 ### 2. Create a virtual environment
 
-## Option 1: Simple install
+#### Option 1: Simple install
 
 If you do not want to use a virtual environment, install the packages directly:
 
@@ -228,7 +228,7 @@ pip install -r requirements.txt
 python bot.py
 ```
 
-## Option 2: Virtual environment install
+#### Option 2: Virtual environment install
 
 To use it in a virtual environment, install the packages as:
 
