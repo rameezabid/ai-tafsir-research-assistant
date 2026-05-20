@@ -207,21 +207,22 @@ TURATH_CONTEXT_RADIUS = 3
 # Deeper research
 TURATH_CONTEXT_TOP_N = 8
 TURATH_CONTEXT_RADIUS = 5
+```
 
 ## Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/tafsir-vocab-telegram-bot.git
-cd tafsir-vocab-telegram-bot
+git clone https://github.com/rameezabid/ai-tafsir-research-assistant.git
+cd ai-tafsir-research-assistant
 ```
 
-### 1. Create a virtual environment
+### 2. Create a virtual environment
 
 #### Option 1: Simple install
 
-If you do not want to use a virtual environment, then just head to step 2.
+If you do not want to use a virtual environment, then just head to step 3.
 
 #### Option 2: Virtual environment install
 
@@ -241,13 +242,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 2. Install dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Create your `.env` file
+### 4. Create your `.env` file
 
 Copy the example file:
 
@@ -271,7 +272,7 @@ PUBLIC_BOT=false
 ALLOWED_TELEGRAM_USER_ID=123456789
 ```
 
-### 4. Run the bot
+### 5. Run the bot
 
 ```bash
 python tafsir.py
