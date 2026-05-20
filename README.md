@@ -217,7 +217,7 @@ git clone https://github.com/YOUR-USERNAME/tafsir-vocab-telegram-bot.git
 cd tafsir-vocab-telegram-bot
 ```
 
-### 2. Create a virtual environment
+### 1. Create a virtual environment
 
 #### Option 1: Simple install
 
@@ -241,13 +241,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Create your `.env` file
+### 3. Create your `.env` file
 
 Copy the example file:
 
@@ -271,7 +271,7 @@ PUBLIC_BOT=false
 ALLOWED_TELEGRAM_USER_ID=123456789
 ```
 
-### 5. Run the bot
+### 4. Run the bot
 
 ```bash
 python tafsir.py
