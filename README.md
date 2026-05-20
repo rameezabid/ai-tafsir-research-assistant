@@ -221,7 +221,7 @@ cd tafsir-vocab-telegram-bot
 
 #### Option 1: Simple install
 
-If you do not want to use a virtual environment, then just head to step 3.
+If you do not want to use a virtual environment, then just head to step 2.
 
 #### Option 2: Virtual environment install
 
